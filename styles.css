@@ -10,9 +10,9 @@ html {
 }
 
 body {
-    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    font-family: 'Outfit', 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
     line-height: 1.6;
-    color: #1a1a1a;
+    color: #0F172A;
     background: #ffffff;
     min-height: 100vh;
 }
@@ -48,7 +48,7 @@ body {
 .logo-text {
     font-size: 1.4rem;
     font-weight: 700;
-    color: #000;
+    color: #0F172A;
     text-decoration: none;
     letter-spacing: -0.5px;
 }
@@ -61,7 +61,7 @@ body {
 
 .nav-link {
     text-decoration: none;
-    color: #1a1a1a;
+    color: #0F172A;
     font-weight: 500;
     font-size: 0.95rem;
     transition: color 0.3s ease;
@@ -69,7 +69,7 @@ body {
 }
 
 .nav-link:hover {
-    color: #0066ff;
+    color: #3B82F6;
 }
 
 .nav-link::after {
@@ -79,7 +79,7 @@ body {
     left: 0;
     width: 0;
     height: 2px;
-    background: #0066ff;
+    background: #3B82F6;
     transition: width 0.3s ease;
 }
 
@@ -96,7 +96,7 @@ body {
 .bar {
     width: 25px;
     height: 3px;
-    background: #1a1a1a;
+    background: #0F172A;
     margin: 3px 0;
     transition: 0.3s;
 }
@@ -107,7 +107,7 @@ body {
     display: flex;
     align-items: center;
     padding: 100px 0 50px;
-    background: linear-gradient(135deg, #ffffff 0%, #f5f5f5 100%);
+    background: linear-gradient(135deg, #ffffff 0%, #E2E8F0 100%);
     position: relative;
     overflow: hidden;
 }
@@ -119,7 +119,7 @@ body {
     left: 0;
     right: 0;
     bottom: 0;
-    background: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000"><defs><radialGradient id="a" cx="50%" cy="50%"><stop offset="0%" stop-color="%230066ff" stop-opacity="0.05"/><stop offset="100%" stop-color="%230066ff" stop-opacity="0"/></radialGradient></defs><circle cx="200" cy="200" r="100" fill="url(%23a)"/><circle cx="800" cy="300" r="150" fill="url(%23a)"/><circle cx="400" cy="700" r="120" fill="url(%23a)"/></svg>');
+    background: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000"><defs><radialGradient id="a" cx="50%" cy="50%"><stop offset="0%" stop-color="%233B82F6" stop-opacity="0.05"/><stop offset="100%" stop-color="%233B82F6" stop-opacity="0"/></radialGradient></defs><circle cx="200" cy="200" r="100" fill="url(%23a)"/><circle cx="800" cy="300" r="150" fill="url(%23a)"/><circle cx="400" cy="700" r="120" fill="url(%23a)"/></svg>');
     opacity: 0.3;
 }
 
@@ -136,7 +136,7 @@ body {
 }
 
 .hero-content {
-    color: #1a1a1a;
+    color: #0F172A;
 }
 
 .hero-title {
@@ -148,7 +148,7 @@ body {
 }
 
 .highlight {
-    background: linear-gradient(45deg, #0066ff, #0047a3);
+    background: linear-gradient(45deg, #3B82F6, #1e40af);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
@@ -158,13 +158,13 @@ body {
     font-size: 1.3rem;
     font-weight: 500;
     margin-bottom: 1rem;
-    color: #666;
+    color: #475569;
 }
 
 .hero-description {
     font-size: 1.05rem;
     margin-bottom: 2rem;
-    color: #666;
+    color: #64748B;
     max-width: 500px;
     line-height: 1.8;
 }
@@ -187,29 +187,29 @@ body {
 }
 
 .btn-primary {
-    background: #0066ff;
+    background: #3B82F6;
     color: white;
-    border-color: #0066ff;
+    border-color: #3B82F6;
 }
 
 .btn-primary:hover {
-    background: #0052cc;
-    border-color: #0052cc;
+    background: #2563EB;
+    border-color: #2563EB;
     transform: translateY(-2px);
-    box-shadow: 0 10px 25px rgba(0, 102, 255, 0.3);
+    box-shadow: 0 10px 25px rgba(59, 130, 246, 0.3);
 }
 
 .btn-secondary {
     background: transparent;
-    color: #0066ff;
-    border-color: #0066ff;
+    color: #3B82F6;
+    border-color: #3B82F6;
 }
 
 .btn-secondary:hover {
-    background: #0066ff;
+    background: #3B82F6;
     color: white;
     transform: translateY(-2px);
-    box-shadow: 0 10px 25px rgba(0, 102, 255, 0.3);
+    box-shadow: 0 10px 25px rgba(59, 130, 246, 0.3);
 }
 
 .hero-social {
@@ -225,16 +225,16 @@ body {
     height: 50px;
     background: #f0f0f0;
     border-radius: 8px;
-    color: #1a1a1a;
+    color: #0F172A;
     text-decoration: none;
     transition: all 0.3s ease;
 }
 
 .social-link:hover {
-    background: #0066ff;
+    background: #3B82F6;
     color: white;
     transform: translateY(-3px);
-    box-shadow: 0 10px 25px rgba(0, 102, 255, 0.2);
+    box-shadow: 0 10px 25px rgba(59, 130, 246, 0.2);
 }
 
 /* Profile Picture */
@@ -276,7 +276,7 @@ section {
     font-weight: 700;
     text-align: center;
     margin-bottom: 3rem;
-    color: #1a1a1a;
+    color: #0F172A;
     position: relative;
     letter-spacing: -0.5px;
 }
@@ -289,7 +289,7 @@ section {
     transform: translateX(-50%);
     width: 60px;
     height: 3px;
-    background: #0066ff;
+    background: #3B82F6;
     border-radius: 2px;
 }
 
@@ -308,7 +308,7 @@ section {
 .about-description {
     font-size: 1.05rem;
     margin-bottom: 1.5rem;
-    color: #666;
+    color: #475569;
     line-height: 1.8;
 }
 
@@ -322,25 +322,25 @@ section {
 .stat {
     text-align: center;
     padding: 1.5rem;
-    background: #f5f5f5;
+    background: #E2E8F0;
     border-radius: 12px;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .stat:hover {
     transform: translateY(-5px);
-    box-shadow: 0 12px 30px rgba(0, 102, 255, 0.1);
+    box-shadow: 0 12px 30px rgba(59, 130, 246, 0.1);
 }
 
 .stat-number {
     font-size: 2.5rem;
     font-weight: 700;
-    color: #0066ff;
+    color: #3B82F6;
     margin-bottom: 0.5rem;
 }
 
 .stat-label {
-    color: #888;
+    color: #64748B;
     font-weight: 500;
     font-size: 0.95rem;
 }
@@ -398,12 +398,12 @@ section {
 
 .education-header h3 {
     font-size: 1.8rem;
-    color: #1a1a1a;
+    color: #0F172A;
     font-weight: 700;
 }
 
 .education-period {
-    background: #0066ff;
+    background: #3B82F6;
     color: white;
     padding: 8px 16px;
     border-radius: 8px;
@@ -413,14 +413,14 @@ section {
 
 .education-degree {
     font-size: 1.15rem;
-    color: #1a1a1a;
+    color: #0F172A;
     margin-bottom: 0.5rem;
     font-weight: 600;
 }
 
 .education-gpa {
     font-size: 1.05rem;
-    color: #0066ff;
+    color: #3B82F6;
     font-weight: 700;
     margin-bottom: 1rem;
 }
@@ -433,7 +433,7 @@ section {
 
 .highlight-tag {
     background: #e6f3ff;
-    color: #0052cc;
+    color: #1e40af;
     padding: 6px 14px;
     border-radius: 8px;
     font-size: 0.9rem;
@@ -473,7 +473,7 @@ section {
     top: 0;
     width: 20px;
     height: 20px;
-    background: #0066ff;
+    background: #3B82F6;
     border-radius: 50%;
     border: 4px solid white;
     box-shadow: 0 0 0 4px #e5e5e5;
@@ -484,7 +484,7 @@ section {
     border-radius: 12px;
     padding: 2rem;
     box-shadow: 0 10px 40px rgba(0, 0, 0, 0.08);
-    border-left: 4px solid #0066ff;
+    border-left: 4px solid #3B82F6;
 }
 
 .timeline-header {
@@ -493,20 +493,20 @@ section {
 
 .timeline-header h3 {
     font-size: 1.3rem;
-    color: #1a1a1a;
+    color: #0F172A;
     margin-bottom: 0.5rem;
     font-weight: 700;
 }
 
 .company {
-    color: #0066ff;
+    color: #3B82F6;
     font-weight: 600;
     margin-right: 1rem;
     font-size: 0.95rem;
 }
 
 .period {
-    color: #888;
+    color: #64748B;
     font-size: 0.9rem;
 }
 
@@ -527,7 +527,7 @@ section {
     content: '▸';
     position: absolute;
     left: 0;
-    color: #0066ff;
+    color: #3B82F6;
     font-weight: bold;
 }
 
@@ -555,13 +555,13 @@ section {
 
 .leadership-card:hover {
     transform: translateY(-8px);
-    box-shadow: 0 15px 50px rgba(0, 102, 255, 0.12);
+    box-shadow: 0 15px 50px rgba(59, 130, 246, 0.12);
 }
 
 .leadership-icon {
     width: 60px;
     height: 60px;
-    background: #0066ff;
+    background: #3B82F6;
     border-radius: 12px;
     display: flex;
     align-items: center;
@@ -573,13 +573,13 @@ section {
 
 .leadership-card h3 {
     font-size: 1.3rem;
-    color: #1a1a1a;
+    color: #0F172A;
     margin-bottom: 1rem;
     font-weight: 700;
 }
 
 .leadership-card p {
-    color: #666;
+    color: #475569;
     margin-bottom: 1rem;
     line-height: 1.7;
     font-size: 0.95rem;
@@ -602,7 +602,7 @@ section {
     content: '▸';
     position: absolute;
     left: 0;
-    color: #0066ff;
+    color: #3B82F6;
     font-weight: bold;
 }
 
@@ -665,26 +665,26 @@ section {
     display: flex;
     align-items: center;
     justify-content: center;
-    color: #1a1a1a;
+    color: #0F172A;
     text-decoration: none;
     transition: all 0.3s ease;
 }
 
 .project-link:hover {
-    background: #0066ff;
+    background: #3B82F6;
     color: white;
     transform: translateY(-3px);
 }
 
 .project-card h3 {
     font-size: 1.4rem;
-    color: #1a1a1a;
+    color: #0F172A;
     margin-bottom: 1rem;
     font-weight: 700;
 }
 
 .project-description {
-    color: #666;
+    color: #475569;
     margin-bottom: 1.5rem;
     line-height: 1.7;
     font-size: 0.95rem;
@@ -698,8 +698,8 @@ section {
 }
 
 .tech-tag {
-    background: #e6f3ff;
-    color: #0052cc;
+    background: #DCE7F6;
+    color: #1e40af;
     padding: 5px 12px;
     border-radius: 8px;
     font-size: 0.8rem;
@@ -723,7 +723,7 @@ section {
     content: '▸';
     position: absolute;
     left: 0;
-    color: #0066ff;
+    color: #3B82F6;
     font-weight: bold;
 }
 
@@ -750,7 +750,7 @@ section {
 
 .skill-category h3 {
     font-size: 1.3rem;
-    color: #1a1a1a;
+    color: #0F172A;
     margin-bottom: 1.5rem;
     text-align: center;
     font-weight: 700;
@@ -764,7 +764,7 @@ section {
 }
 
 .skill-tag {
-    background: #0066ff;
+    background: #3B82F6;
     color: white;
     padding: 8px 16px;
     border-radius: 8px;
@@ -775,7 +775,7 @@ section {
 
 .skill-tag:hover {
     transform: translateY(-3px);
-    box-shadow: 0 8px 20px rgba(0, 102, 255, 0.3);
+    box-shadow: 0 8px 20px rgba(59, 130, 246, 0.3);
 }
 
 /* Certifications Section */
@@ -799,7 +799,7 @@ section {
 .cert-icon {
     width: 60px;
     height: 60px;
-    background: #0066ff;
+    background: #3B82F6;
     border-radius: 12px;
     display: flex;
     align-items: center;
@@ -811,20 +811,20 @@ section {
 
 .cert-content h3 {
     font-size: 1.3rem;
-    color: #1a1a1a;
+    color: #0F172A;
     margin-bottom: 0.5rem;
     font-weight: 700;
 }
 
 .cert-issuer {
-    color: #0066ff;
+    color: #3B82F6;
     font-weight: 600;
     margin-bottom: 0.25rem;
     font-size: 0.95rem;
 }
 
 .cert-year {
-    color: #888;
+    color: #64748B;
     font-size: 0.9rem;
 }
 
@@ -843,7 +843,7 @@ section {
 
 .contact-description {
     font-size: 1.05rem;
-    color: #666;
+    color: #475569;
     margin-bottom: 2rem;
     line-height: 1.8;
 }
@@ -864,7 +864,7 @@ section {
 
 .contact-method i {
     width: 20px;
-    color: #0066ff;
+    color: #3B82F6;
     font-size: 1.2rem;
 }
 
@@ -890,18 +890,18 @@ section {
 
 .contact-link:hover {
     transform: translateY(-4px);
-    box-shadow: 0 10px 30px rgba(0, 102, 255, 0.15);
-    color: #0066ff;
+    box-shadow: 0 10px 30px rgba(59, 130, 246, 0.15);
+    color: #3B82F6;
 }
 
 .contact-link i {
     font-size: 1.3rem;
-    color: #0066ff;
+    color: #3B82F6;
 }
 
 /* Footer */
 .footer {
-    background: #1a1a1a;
+    background: #0F172A;
     color: white;
     padding: 2.5rem 0;
     text-align: center;
@@ -909,7 +909,7 @@ section {
 
 .footer-content p {
     margin-bottom: 0.5rem;
-    color: #aaa;
+    color: #cbd5e0;
     font-size: 0.95rem;
 }
 
@@ -923,12 +923,12 @@ section {
 }
 
 ::-webkit-scrollbar-thumb {
-    background: #0066ff;
+    background: #3B82F6;
     border-radius: 4px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-    background: #0052cc;
+    background: #2563EB;
 }
 /* Responsive Design */
 @media (max-width: 768px) {
